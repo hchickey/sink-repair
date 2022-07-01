@@ -1,0 +1,55 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.serviceForm {
+    width: 15rem;
+}
+
+.label {
+    font-size: 1.3rem;
+}
+
+.table {
+    display: table;
+    background-color: rgb(74, 194, 44);
+    display: table-header-group;
+    display: table-row-group;
+    display: table-row;
+
+}
+
+
+
+.plumbers {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(228, 64, 176);
+    display: table-cell;
+}
+
+.request {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(228, 64, 176);
+}
+
+.header1 {
+    display: table-caption;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    display: table-header-group;
+    background-color: rgb(228, 64, 176);
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+
+}
+
